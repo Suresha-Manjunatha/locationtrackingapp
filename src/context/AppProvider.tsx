@@ -8,7 +8,7 @@ const defaultValue = {
 
 export const AppContext = createContext<any>(defaultValue);
 
-export const AppProvider: React.FC = ({ children }) => {
+export const AppProvider: React.FC = ({ children }: any) => {
   const [state, dispatch] = useReducer(reducer, initState);
 
   return (

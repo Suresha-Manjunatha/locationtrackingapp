@@ -81,15 +81,15 @@ const Home: React.FC = () => {
     <View style={styles.container}>
       <Text style={styles.header}>Location Manager</Text>
       <Text style={styles.subHeader}>Current Location</Text>
-      {/* <CurrentLocation data={state.current} /> */}
+      <CurrentLocation data={state.current} />
       <Text style={styles.subHeader}>Previous Locations</Text>
-      {/* <PreviousLocations history={state.history} removeItem={removeItem} />
+      <PreviousLocations history={state.history} removeItem={removeItem} />
       <Button
         title="Clear All"
         onPress={clearAll}
         style={styles.button}
         textStyle={styles.buttonText}
-      /> */}
+      />
     </View>
   );
 };
